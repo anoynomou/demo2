@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer>
+        function movetoElement(elementID){
+           document.getElementById(elementID).scrollIntoView({behavior:"smooth",block:"center"})
+        }
+    </script>
+</head>
+<body>
+
+
+   
+    <div class="HEAD">
+        <div id="HD-1">
+            <h1>WEB<span> DEVlOPER</span></h1>
+        </div>
+        <div id="HD-2">
+            <ul>
+                <li onclick="movetoElement('MA-2')">About</li>
+                <li onclick="movetoElement('s-h1')">Service</li>
+                <li onclick="movetoElement('ct-2')">CONTACT</li>
+            </ul>
+        </div>
+    </div>
+    <div class="MAIN">
+
+       <div id="MA-1">
+           <div id="MA-2" >
+             <h1>LAXURY</h1>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. P
+                 orro, voluptates necessitatibus. A
+                 nimi ipsa asperiores vitae, quam libero eum, nihil fugiat eius reic
+                 iendis laudantium sit alias dignissimos rerum atque quasi? Vel.</p>
+           </div>
+           <div id="MA-3">
+            
+           <img id="img1" src="./dmitry-vechorko-E9PFbdhZmus-unsplash.jpg" >
+           </div>
+       </div>
+
+
+    </div>
+    <div class="ABOUT">
+      <div id="AB-1">
+
+          <h1 id="s-h1">Service</h1>
+          <div id="AB-2">
+
+
+              <div id="ABI-1">
+
+                 <h1>Grafix Design</h1>
+                 <p>Lorem, ipsucto, et nesciunt quidem! Itaque est explicabo quasi non, modi dolorum sit nobis consequuntur!</p>
+              </div>
+
+              <div  id="ABI-2">
+
+                <h1>Web Devlopment</h1>
+                <p>Lorem, ipsucto, et nesciunt quidem! Itaque est explicabo quasi non, modi dolorum sit nobis consequuntur!</p>
+              </div>
+
+              <div  id="ABI-3">
+                <h1>Fiver Seller</h1>
+                <p>Lorem, ipsucto, et nesciunt quidem! Itaque est explicabo quasi non, modi dolorum sit nobis consequuntur!</p>
+              </div>
+
+
+          </div>
+
+      </div>
+    </div>
+    <div class="FOOTER">
+       <h1 id="ct-1">CONTACT</h1>
+       <ul id="ct-2"><li>Number: <span class="vl">+008955122</span></li><li>E-mail:<span class="vl">libre777@gmail.com</span></li><li>location:<span class="vl">Samon_st_97_12_b21,7</span></li></ul>
+       <div class="social">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fas fa-envelope"></i>
+       </div>
+       <p id="copy">copy right @2020 copy inligal</p>
+       
+    </div>
+</body>
+</html>
